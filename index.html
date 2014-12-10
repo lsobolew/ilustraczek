@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/onepage-scroll.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Archivo+Black&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <style>
+        body {
+            background: url(img/bg.png);
+        }
+        .wrapper {
+        height: 100% !important;
+        height: 100%;
+        margin: 0 auto; 
+            }
+        ul.ilustracje {
+            list-style:none;
+            width:100%;
+            height:100%;
+            margin: 0;
+            padding: 0;
+            line-height:0;
+        }
+        
+        .ilustracje li {
+            display:inline-block;
+            height:50%;
+            width:33.33%;
+            box-sizing:border-box;
+            padding:5px;
+            background-clip:content-box;
+            border-radius:20px;
+            vertical-align: top;
+        }
+        .ilustracje li div{
+            width:100%;
+            height:100%;
+            /*background-color:#fff !important;*/
+            box-sizing:border-box;
+            border-radius:20px;
+            border:8px solid transparent;
+            border-bottom-width:30px;
+            font-family: 'Archivo Black', sans-serif;
+            position:relative;
+            cursor:pointer;
+        }
+        .ilustracje li div.animated{
+            z-index:1;
+        }
+        .ilustracje li div span{
+            position:absolute;
+            bottom:-13px;
+            left:0;
+            width:100%;
+            text-align: center;
+        }
+        #player {
+            display:none;
+        }
+        </style>
+    </head>
+    <body>
+<div class="wrapper">
+    <audio id="player" src="http://www.voicerss.org/controls/speech.ashx?hl=pl-pl&src=telefon&c=mp3" type="audio/mp3"></audio>
+    <div class="main">
+        
+      <section class="page1">
+       <ul class="ilustracje">
+        <li>
+            <div data-audio="audio/pies.mp3" data-src="img/pies_2.svg" style="background:url(img/pies_2.svg) no-repeat 50% 50%;background-size:contain;">
+                
+                <span>pies</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/kot.mp3" data-src="img/kot_1.svg" style="background:url(img/kot_1.svg) no-repeat 50% 50%;background-size:contain;">
+                
+                <span>kot</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/lew.mp3" data-src="img/lew.svg" style="background:url(img/lew.svg) no-repeat 50% 50%;background-size:contain;">
+                
+                <span>lew</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/zyrafa.mp3" data-src="img/zyrafa.svg" style="background:url(img/zyrafa.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>żyrafa</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/zaba.mp3" data-src="img/zaba.svg" style="background:url(img/zaba.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>żaba</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/rozgwiazda.mp3" data-src="img/rozgwiazda.svg" style="background:url(img/rozgwiazda.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>rozgwiazda</span>
+            </div>
+        </li>
+       </ul>
+      </section>
+        
+        <section class="page2">
+        <ul class="ilustracje">
+          <li>
+            <div data-audio="audio/zebra.mp3" data-src="img/zebra.svg" style="background:url(img/zebra.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>zebra</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/jez.mp3" data-src="img/jez.svg" style="background:url(img/jez.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>jeż</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/krolik.mp3" data-src="img/krolik.svg" style="background:url(img/krolik.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>królik</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/krokodyl.mp3" data-src="img/krokodyl.svg" style="background:url(img/krokodyl.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>krokodyl</span>
+            </div>
+        </li><!--
+        --><li>
+            <div  data-audio="audio/kangur.mp3" data-src="img/kangur.svg" style="background:url(img/kangur.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>kangur</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/kot.mp3" data-src="img/kot_2.svg" style="background:url(img/kot_2.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>kot</span>
+            </div>
+        </li>
+        </ul>
+      </section>
+        
+        <section class="page3">
+        <ul class="ilustracje">
+          <li>
+            <div data-audio="audio/malpa.mp3" data-src="img/malpa.svg" style="background:url(img/malpa.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>małpa</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/owca.mp3" data-src="img/owca.svg" style="background:url(img/owca.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>owca</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/papuga.mp3" data-src="img/papuga.svg" style="background:url(img/papuga.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>papuga</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/panda.mp3" data-src="img/panda.svg" style="background:url(img/panda.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>panda</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/robak.mp3" data-src="img/robaczek.svg" style="background:url(img/robaczek.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>robak</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/pies.mp3" data-src="img/pies_2.svg" style="background:url(img/pies_2.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>pies</span>
+            </div>
+        </li>
+        </ul>
+      </section>
+
+    <section class="page4">
+        <ul class="ilustracje">
+          <li>
+            <div data-audio="audio/biedronka.mp3" data-src="img/biedronka.svg" style="background:url(img/biedronka.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>biedronka</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/dinozaur.mp3" data-src="img/dinozaur.svg" style="background:url(img/dinozaur.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>dinozaur</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/kaczka.mp3" data-src="img/kaczka.svg" style="background:url(img/kaczka.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>kaczka</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/lampart.mp3" data-src="img/lampart.svg" style="background:url(img/lampart.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>lampart</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/slon.mp3" data-src="img/slon.svg" style="background:url(img/slon.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>słoń</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/swinia.mp3" data-src="img/swinia.svg" style="background:url(img/swinia.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>świnia</span>
+            </div>
+        </li>
+        </ul>
+      </section>
+
+    <section class="page5">
+        <ul class="ilustracje">
+          <li>
+            <div data-audio="audio/sep.mp3" data-src="img/sep.svg" style="background:url(img/sep.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>sęp</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/tygrys.mp3" data-src="img/tygrys.svg" style="background:url(img/tygrys.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>tygrys</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/wieloryb.mp3" data-src="img/wieloryb.svg" style="background:url(img/wieloryb.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>wieloryb</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/zajac.mp3" data-src="img/zajac.svg" style="background:url(img/zajac.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>zając</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/pszczola.mp3" data-src="img/pszczola.svg" style="background:url(img/pszczola.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>pszczoła</span>
+            </div>
+        </li><!--
+        --><li>
+            <div data-audio="audio/motyl.mp3" data-src="img/motyl.svg" style="background:url(img/motyl.svg) no-repeat 50% 50%;background-size:contain;">
+                <span>motyl</span>
+            </div>
+        </li>
+        </ul>
+      </section>
+
+
+    </div>
+</div>
+
+    
+        
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.onepage-scroll.min.js"></script>
+        <script type="text/javascript" src="js/vendor/color-thief.min.js"></script>
+        <script type="text/javascript" src="js/vendor/colors.min.js"></script>
+
+        <script src="js/johndyer-mediaelement/build/mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="js/johndyer-mediaelement/build/mediaelementplayer.min.css" />
+        <script>
+          $(document).ready(function(){
+                  $(".main").onepage_scroll({
+                    sectionContainer: "section",
+                    responsiveFallback: 600,
+                    loop: true
+                  });
+
+                  $('.ilustracje li div').on('click', function() {
+                    $(this).addClass('animated rubberBand');
+                    
+                  }).on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                     $(this).removeClass('animated rubberBand');   
+                  });
+
+
+                var player = new MediaElementPlayer('#player');
+                player.container.hide()
+                $('.ilustracje li div').on('click', function() {
+                    player.pause();
+                    player.setSrc($(this).data('audio'));
+                    // player.setSrc('http://www.voicerss.org/controls/speech.ashx?hl=pl-pl&src=' + $(this).data('text') + '&c=mp3');
+                    player.play();
+                });
+
+
+
+              })
+
+                  
+        $(window).on('load', function() {     
+            var colorThief = new ColorThief();
+                  $('[data-src]').each(function(){
+                        var image = new Image();
+                        image.src = $(this).data('src');
+                        var imageMainColor = colorThief.getColor(image); 
+                        var imageMainColorHEX = $c.rgb2hex(imageMainColor[0], imageMainColor[1], imageMainColor[2]);
+                        // console.log(imageMainColorHEX);
+                        var bgColor = $c.complement(imageMainColor);
+                        var bgColorHEX = $c.rgb2hex(bgColor.R, bgColor.G, bgColor.B);
+
+                        $(this).css('background-color', 'rgba(' + bgColor.R + ',' + bgColor.G + ',' + bgColor.B + ', .9)');
+                        $(this).find('span').css('color', 'rgba(' + bgColor.R + ',' + bgColor.G + ',' + bgColor.B + ', 1)');
+                        $(this).css('border-color', imageMainColorHEX);
+                  })
+          })
+            
+        </script>
+    </body>
+</html>
